@@ -35,7 +35,7 @@ def check_guess(guess, secret):
 
     try:
         if guess > secret:
-            # FIXED: backwards hints 
+            # FIXED: backwards hints using AI to locate where underlying issue might be at in my code
             return "Too High", "📉 Go LOWER!" # guessed too high --> should go lower
         else:
             return "Too Low", "📈 Go HIGHER!" # guessed too low -> should go higher
