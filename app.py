@@ -89,6 +89,8 @@ low, high = get_range_for_difficulty(difficulty)
 st.sidebar.caption(f"Range: {low} to {high}")
 st.sidebar.caption(f"Attempts allowed: {attempt_limit}")
 
+
+# STATE BUG fix
 if "secret" not in st.session_state:
     st.session_state.secret = random.randint(low, high)
 
