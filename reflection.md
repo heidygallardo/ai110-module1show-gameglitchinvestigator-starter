@@ -22,18 +22,12 @@ Document at least 3 bugs you found. Add rows as needed.
 
 ## 2. How did you use AI as a teammate?
 
-- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
-- Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
-- Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
-
+- I used Claude to determine why the app was not working as intended. After receiving a response I manually verified and also added a test case to ensure issue was fixed. 
 ---
 
 ## 3. Debugging and testing your fixes
 
-- How did you decide whether a bug was really fixed?
-- Describe at least one test you ran (manual or using pytest)  
-  and what it showed you about your code.
-- Did AI help you design or understand any tests? How?
+- One test I added was to check that the message shown to users was the correct one based on a user's guess.
 
 ---
 

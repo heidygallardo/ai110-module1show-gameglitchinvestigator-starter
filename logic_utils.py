@@ -32,12 +32,14 @@ def parse_guess(raw: str):
     return True, value, None
 
 
+# FIX: Refactored logic into logic_utils.py using agent mode 
 def check_guess(guess, secret):
     """
     Compare guess to secret and return (outcome, message).
 
     outcome examples: "Win", "Too High", "Too Low"
     """
+
     if guess == secret:
         return "Win", "🎉 Correct!"
 
