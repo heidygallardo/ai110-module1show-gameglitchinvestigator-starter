@@ -34,12 +34,12 @@ Document at least 3 bugs you found. Add rows as needed.
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+- I would explain Streamlist "reruns" and session state to a friend who has never used Streamlit by presenting and analogy to them. For them to think of reruns like restarting a vide game level every time any button is pressed. While session state being the file that keeps your score and latest progress saved despite any other button presses. 
 
 ---
 
 ## 5. Looking ahead: your developer habits
 
-- What is one habit or strategy from this project that you want to reuse in future labs or projects?
-  - This could be a testing habit, a prompting strategy, or a way you used Git.
-- What is one thing you would do differently next time you work with AI on a coding task?
-- In one or two sentences, describe how this project changed the way you think about AI generated code.
+- One habit from this project I want to reuse is to verify AI's output rather than blindly pasting AI-generated code. 
+- Next time I work with AI tools, I will forsure lead the AI and prompt it to do what I have in mind. 
+
